@@ -1,0 +1,10 @@
+@import '../varaible/variables.scss';
+
+.mainContainer {
+    display: flex;
+    height: auto;
+    padding: 3%;
+    justify-content: center;
+
+    background-color: $colorBackground;
+}

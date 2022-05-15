@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACf,qBAAqB,EAAE,cAAc;EACrC,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EAEZ,gBAAgB,ECLD,OAAO;CDMvB;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,GAAG;CACT;;AAEH,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,GAAG,CAAC,KAAK,CChBJ,OAAO;CDiBvB",
+    "sources": [
+        "add_card.scss",
+        "../varaible/variables.scss"
+    ],
+    "names": [],
+    "file": "add_card.css"
+}

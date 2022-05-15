@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,iBAAiB;EACzB,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,WAAW,AAAA,MAAM,CAAC;EAClB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,qBAAqB;EACjD,gBAAgB,EAAE,OAAO;CACxB;;AAED,AAAA,WAAW,AAAA,OAAO,CAAC;EACnB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,qBAAqB,CAAC,KAAK;EACxD,gBAAgB,EAAE,OAAO;CACxB",
+    "sources": [
+        "save_card.scss",
+        "../varaible/variables.scss"
+    ],
+    "names": [],
+    "file": "save_card.css"
+}

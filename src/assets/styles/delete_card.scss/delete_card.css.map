@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,OAAO;EAChB,MAAM,EAAE,iBAAiB;EACzB,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,aAAa,AAAA,MAAM,CAAC;EACpB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,qBAAqB;EACjD,gBAAgB,EAAE,OAAO;CACxB;;AAED,AAAA,aAAa,AAAA,OAAO,CAAC;EACrB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,qBAAqB,CAAC,KAAK;EACxD,gBAAgB,EAAE,OAAO;CACxB",
+    "sources": [
+        "delete_card.scss",
+        "../varaible/variables.scss"
+    ],
+    "names": [],
+    "file": "delete_card.css"
+}

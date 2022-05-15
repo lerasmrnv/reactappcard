@@ -1,0 +1,18 @@
+.add_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  height: 40px;
+  background-color: #D3E3FC;
+}
+
+input {
+  width: 70%;
+}
+
+td {
+  border: 1px solid #77A6F7;
+}
+/*# sourceMappingURL=add_card.css.map */

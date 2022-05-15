@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACf,qBAAqB,EAAE,cAAc;EACrC,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;CAEb;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,GAAG,CAAC,KAAK,CCZJ,OAAO;CDavB",
+    "sources": [
+        "tableRow.scss",
+        "../varaible/variables.scss"
+    ],
+    "names": [],
+    "file": "tableRow.css"
+}
