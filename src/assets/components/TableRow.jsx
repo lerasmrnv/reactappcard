@@ -1,22 +1,28 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-import Edit_card from './Edit_card';
-import Delete_card from './Delete_card';
+import EditCard from './EditCard';
+import DeleteCard from './DeleteCard';
+import AddCard from './AddCard';
 
-export default class TableRow extends Component {
-    render() {
-        const { id, russian, english, transcription } = this.props;
-        return (
-            <tr className='tableRow'>
-                <td>{id}</td>
-                <td>{russian}</td>
-                <td>{english}</td>
-                <td>{transcription}</td>
-                <td>
-                    <Edit_card />
-                    <Delete_card />
-                </td>
-            </tr>
-        )
+export default function TableRow(props) {
+    const [edit, setEdit] = useState(false);
+
+    const handleOnClickEdit = () => {
+        setEdit(!edit);
     }
+
+    return (
+
+        <tr className='tableRow'>
+            <td>{props.id}</td>
+            <td>{props.russian}</td>
+            <td>{props.english}</td>
+            <td>{props.transcription}</td>
+            <td>
+                <EditCard />
+                <DeleteCard />
+            </td>
+        </tr>
+    )
 }
+

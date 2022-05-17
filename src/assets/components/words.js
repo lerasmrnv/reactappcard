@@ -1,87 +1,64 @@
 const words = [{
-    "id":"11346",
+    "id":"1",
     "english":"street",
     "transcription":"[ stri:t ]",
-    "russian":"улица",
-    "tags":"",
-    "tags_json":"[\"u043eu0432u043eu0449u0438\"]"
+    "russian":"улица"
 },{
-    "id":"11347",
+    "id":"2",
     "english":"car",
-    "transcription":"[ kɑ: ]",
-    "russian":"автомобиль",
-    "tags":"",
-    "tags_json":"[\"\"]"
+    "transcription":"[ ka: ]",
+    "russian":"автомобиль"
+
 },{
-    "id":"11350",
+    "id":"3",
     "english":"arm",
-    "transcription":"[ ɑ:m ]",
-    "russian":"рука",
-    "tags":"",
-    "tags_json":"[\"\"]"
+    "transcription":"[ a:m ]",
+    "russian":"рука"
 },{
-    "id":"11354",
+    "id":"4",
     "english":"air",
     "transcription":"[  eər ]",
-    "russian":"воздух",
-    "tags":"",
-    "tags_json":"[\"\"]"
+    "russian":"воздух"
 },{
-    "id":"11355",
+    "id":"5",
     "english":"fox",
     "transcription":"[ fɒks ]",
-    "russian":"лиса",
-    "tags":"",
-    "tags_json":"[\"\"]"
+    "russian":"лиса"
 },{
-    "id":"11360",
+    "id":"6",
     "english":"rabbit",
-    "transcription":"[ ˈræbɪt ]",
-    "russian":"кролик",
-    "tags":"",
-    "tags_json":"[\"\"]"
+    "transcription":"[ 'ræbit ]",
+    "russian":"кролик"
 },{
-    "id":"11371",
+    "id":"7",
     "english":"mouse",
     "transcription":"[ maʊs]",
-    "russian":"мышь",
-    "tags":"животные",
-    "tags_json":"[\"u0436u0438u0432u043eu0442u043du044bu0435\"]"
+    "russian":"мышь"
 },{
-    "id":"11397",
+    "id":"8",
     "english":"tea",
     "transcription":"[ tiː ]",
-    "russian":"чай",
-    "tags":"напитки",
-    "tags_json":"[\"u043du0430u043fu0438u0442u043au0438\"]"
+    "russian":"чай"
 },{
-    "id":"11403",
+    "id":"9",
     "english":"goose",
     "transcription":"[ ɡuːs ]",
-    "russian":"гусь",
-    "tags":"птицы",
-    "tags_json":"[\"u043fu0442u0438u0446u044b\"]"
+    "russian":"гусь"
 },{
-    "id":"11404",
+    "id":"10",
     "english":"flower",
     "transcription":"[ ˈflaʊər ]",
-    "russian":"цветок",
-    "tags":"растения",
-    "tags_json":"[\"u0440u0430u0441u0442u0435u043du0438u044f\"]"
+    "russian":"цветок"
 },{
-    "id":"11421",
+    "id":"11",
     "english":"bird",
     "transcription":"[ be:d ]",
-    "russian":"птица",
-    "tags":"птиц",
-    "tags_json":"[\"u043fu0442u0438u0446\"]"
+    "russian":"птица"
 },{
-    "id":"11423",
+    "id":"12",
     "english":"cat",
     "transcription":"[ kæt ]",
-    "russian":"кот",
-    "tags":"",
-    "tags_json":"[]"
+    "russian":"кот"
 }];
 
 export default words;

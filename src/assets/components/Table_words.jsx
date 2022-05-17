@@ -1,28 +1,27 @@
 import React from 'react';
 import TableRow from './TableRow';
 import words from './words';
-import Add_card from './Add_card';
+import AddCard from './AddCard';
 
 
-class Table_words extends React.Component {
-    render() {
-        const selected = true;
-        return (
-            <table className='tableWords'>
+function Table_words() {
+    return (
+        <table className='tableWords'>
+            <tbody>
                 <tr className='tableHeader'>
-                    <td>#</td>
-                    <td>Слово</td>
-                    <td>Перевод</td>
-                    <td>Транскрипция</td>
-                    <td></td>
+                    <th>#</th>
+                    <th>Слово</th>
+                    <th>Перевод</th>
+                    <th>Транскрипция</th>
+                    <th></th>
                 </tr>
-                {selected ? <Add_card /> : ''}
                 {words.map((word) =>
-                    <TableRow id={word.id} russian={word.russian} english={word.english} transcription={word.transcription}></TableRow>
+                    <TableRow key={word.id} id={word.id} russian={word.russian} english={word.english} transcription={word.transcription} />
                 )}
-            </table>
-        )
-    }
+            </tbody>
+        </table>
+    )
 }
+
 
 export default Table_words;

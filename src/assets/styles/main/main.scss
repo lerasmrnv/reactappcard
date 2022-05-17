@@ -2,9 +2,11 @@
 
 .mainContainer {
     display: flex;
+    flex-direction: column;
     height: auto;
     padding: 3%;
     justify-content: center;
+    align-items: center;
 
     background-color: $colorBackground;
 }

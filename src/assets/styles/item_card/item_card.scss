@@ -1,0 +1,57 @@
+@import '../varaible/variables.scss';
+
+.item_card {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 270px;
+    border-radius: 15px;
+    
+    background-color: $colorEmphasis4;
+}
+
+
+.transcription_item_card, .english-word_item_card {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: $font;
+    margin-bottom: 3%;
+}
+
+.english-word_item_card {
+    color: $colorTextDark;
+}
+
+.transcription_item_card {
+    margin-bottom: 40px;
+
+    color: $colorTextGrey;
+    font-size: small;
+}
+
+.onCheck_translation {
+    border: none;
+    background-color: $colorEmphasis1;
+    padding: 10px 10px;
+    
+    border-radius: 12px;
+    font-family: $font;
+    color: $colorTextLight;
+}
+
+.onCheck_translation:hover {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+
+.russian-word_item_card {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+    padding: 10px 10px;
+
+    color: $colorTextDark;
+    font-family: $font;
+}

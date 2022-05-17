@@ -3,13 +3,23 @@
 .tableWords {
     display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 800px; 
+
 }
+
 
 .tableHeader {
     display: grid;
   grid-template-columns: repeat(5, 1fr);
+  height: 50px;
+
+
   text-align: center;
-  height: 30px;
   font-weight: bold;
+  }
+  
+  th {
+    padding: 7%;
+    border: 1px solid $colorEmphasis1;
+    border-collapse: collapse;
 }
