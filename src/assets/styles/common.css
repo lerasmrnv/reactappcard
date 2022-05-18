@@ -1,6 +1,5 @@
 @import './normalize.css';
-@import './add_card/add_card.css';
-@import './delete_card.scss/delete_card.css';
+@import './delete_card/delete_card.css';
 @import './edit_card/edit_card.css';
 @import './footer/footer.css';
 @import './header/header.css';
@@ -10,3 +9,4 @@
 @import './table_words/table_words.css';
 @import './tableRow/tableRow.css';
 @import './item_card/item_card.css';
+@import './close_card/close_card.css';

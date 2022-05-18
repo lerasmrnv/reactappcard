@@ -2,8 +2,8 @@ import React from 'react';
 import { FiTrash2 } from "react-icons/fi";
 
 
-export default function DeleteCard() {
+export default function DeleteCard({ handleClick }) {
     return (
-        <button className='buttonDelete'><FiTrash2 /></button>
+        <button onClick={handleClick} className='buttonDelete'><FiTrash2 /></button>
     )
 }

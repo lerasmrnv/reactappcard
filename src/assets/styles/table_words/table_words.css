@@ -19,7 +19,7 @@
   font-weight: bold;
 }
 
-th {
+.tableHeader_item {
   padding: 7%;
   border: 1px solid #77A6F7;
   border-collapse: collapse;

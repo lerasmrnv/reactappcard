@@ -9,8 +9,12 @@
 
 }
 
-td {
+.tableRow_item {
   padding: 4% 0;
     border: 1px solid $colorEmphasis1;
     border-collapse: collapse;
-}
+
+    input {
+      width: 80%;
+    }
+  }

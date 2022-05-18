@@ -1,9 +1,9 @@
 import React from 'react';
 import { FiEdit2 } from "react-icons/fi";
 
-export default function EditCard() {
+export default function EditCard({ handleClick }) {
     return (
-        <button className='buttonEdit'><FiEdit2 /></button>
+        <button onClick={handleClick} className='buttonEdit'><FiEdit2 /></button>
     )
 }
 
