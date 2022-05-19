@@ -13,6 +13,12 @@ export default function TableRow(props) {
         setEdit(prev => !prev);
     }
 
+    const handleCanel = () => {
+        setEdit(prev => !prev);
+        setTempData(props);
+    }
+
+
     const handleChange = (field, value) => {
         setTempData(prev => { return { ...prev, [field]: value } });
     }
@@ -29,7 +35,7 @@ export default function TableRow(props) {
             <div className='tableRow_item'>{!edit ? tempData.transcription : <input value={tempData.transcription} onChange={(e) => handleChange('transcription', e.target.value)} />}</div>
             <div className='tableRow_item'>
                 {!edit ? <EditCard handleClick={handleEdit} /> : <SaveCard handleClick={handleEdit} />}
-                {!edit ? <DeleteCard handleClick={handleEdit} /> : <CloseCard handleClick={handleEdit} />}
+                {!edit ? <DeleteCard handleClick={handleEdit} /> : <CloseCard handleClick={handleCanel} />}
             </div>
         </div>
     )

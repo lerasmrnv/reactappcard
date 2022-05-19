@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/item_card/item_card.css';
-import EditCard from './EditCard';
+
 
 
 export default function ItemCard() {
