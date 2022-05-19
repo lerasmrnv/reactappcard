@@ -18,6 +18,10 @@ export default function TableRow(props) {
         setTempData(props);
     }
 
+    // Реализовать удаление (не получилось пока)
+    // const handleDelete = () => {
+
+    // }
 
     const handleChange = (field, value) => {
         setTempData(prev => { return { ...prev, [field]: value } });
@@ -27,7 +31,7 @@ export default function TableRow(props) {
     return (
 
 
-        <div className='tableRow'>
+        <div key={tempData.id} className='tableRow'>
 
             <div className='tableRow_item'>{props.id}</div>
             <div className='tableRow_item'>{!edit ? tempData.russian : <input value={tempData.russian} onChange={(e) => handleChange('russian', e.target.value)} />}</div>
