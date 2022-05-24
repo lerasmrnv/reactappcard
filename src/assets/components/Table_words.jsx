@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import TableRow from './TableRow';
 import words from './words';
 
 
 function Table_words() {
-    const [data, setData] = useState(words);
+    const [data, setData] = useState([]);
+
+
+    // useEffect(() => {
+    //     setData(JSON.parse)
+    // })
 
     return (
         <div className='tableWords'>
@@ -16,7 +21,7 @@ function Table_words() {
                 <div className='tableHeader_item'></div>
             </div>
             {data.map((word) =>
-                <TableRow key={word.id} id={word.id} russian={word.russian} english={word.english} transcription={word.transcription} />
+                <TableRow key={word.id.toString()} id={word.id} russian={word.russian} english={word.english} transcription={word.transcription} />
             )}
         </div>
     )

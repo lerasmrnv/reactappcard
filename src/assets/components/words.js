@@ -1,4 +1,4 @@
-const words = [{
+let words = `[{
     "id":"1",
     "english":"street",
     "transcription":"[ stri:t ]",
@@ -10,7 +10,7 @@ const words = [{
     "russian":"автомобиль"
 
 },{
-    "id":"3",
+    "id":"3", 
     "english":"arm",
     "transcription":"[ a:m ]",
     "russian":"рука"
@@ -59,6 +59,6 @@ const words = [{
     "english":"cat",
     "transcription":"[ kæt ]",
     "russian":"кот"
-}];
+}]`;
 
 export default words;
