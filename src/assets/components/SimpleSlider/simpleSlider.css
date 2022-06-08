@@ -1,0 +1,15 @@
+.containerSlider {
+    padding: 40px;
+    height: min-content;
+    width: 208px;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+  }
+
+.slick-next:before, .slick-prev:before {
+    font-size: 25px;
+    opacity: .65;
+    color: rgb(45, 45, 45);
+}

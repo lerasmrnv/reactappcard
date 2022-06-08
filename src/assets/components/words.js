@@ -1,4 +1,4 @@
-let words = `[{
+let words = [{
     "id":"1",
     "english":"street",
     "transcription":"[ stri:t ]",
@@ -59,6 +59,6 @@ let words = `[{
     "english":"cat",
     "transcription":"[ kæt ]",
     "russian":"кот"
-}]`;
+}];
 
 export default words;

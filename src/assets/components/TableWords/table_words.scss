@@ -1,0 +1,25 @@
+@import '/src/assets/styles/variables.scss';
+
+.tableWords {
+    display: flex;
+  flex-direction: column;
+  width: 70%;
+  min-width: max-content;
+  height: auto;
+}
+
+
+.tableHeader {
+    display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+
+
+  text-align: center;
+  font-weight: bold;
+  }
+  
+.tableHeader_item {
+    padding: 7%;
+    border: 1px solid $colorEmphasis1;
+    border-collapse: collapse;
+}
