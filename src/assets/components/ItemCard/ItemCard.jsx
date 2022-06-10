@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-
 export default function ItemCard(props) {
 
     const [check, setCheck] = useState(false);
+
 
     const handleOnCheck = () => {
         setCheck(!check);

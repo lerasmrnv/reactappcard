@@ -1,9 +1,9 @@
 import React from "react";
 
 import TableWords from "../TableWords/TableWords";
-
+import SlideCard from "../SlideCard/SlideCard";
 import SimpleSlider from "../SimpleSlider/SimpleSlider";
-
+import words from "../words";
 
 
 
@@ -12,7 +12,9 @@ export default function Main() {
         <div className="mainContainer">
             <TableWords />
 
-            <SimpleSlider> </SimpleSlider>
+            <SlideCard words={words} />
+
+            <SimpleSlider />
 
         </div>
     )

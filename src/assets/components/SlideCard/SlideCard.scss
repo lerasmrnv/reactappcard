@@ -1,0 +1,11 @@
+.slider {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.next__button, .prev__button {
+    height: 10%;
+}

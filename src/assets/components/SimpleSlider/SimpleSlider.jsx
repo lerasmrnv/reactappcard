@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "./simpleSlider.css";
+
 import ItemCard from "../ItemCard/ItemCard";
 import words from "../words";
 

@@ -3,7 +3,7 @@ import TableRow from '../TableRow/TableRow';
 
 
 function TableWords() {
-    const [users, setUser] = useState([])
+    const [users, setUser] = useState([]);
     const [loading, setLoading] = useState(false);
 
     const handleDelete = (id) => {
