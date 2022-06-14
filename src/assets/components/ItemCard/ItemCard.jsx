@@ -13,7 +13,7 @@ export default function ItemCard(props) {
 
 
     return (
-        <div div className='item_card' >
+        <div className='item_card'>
             <h2 className='english-word_item_card'>{props.english}</h2>
             <p className='transcription_item_card'>[{props.transcription}]</p>
             {

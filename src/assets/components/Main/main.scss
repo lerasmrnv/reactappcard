@@ -5,6 +5,11 @@
     flex-direction: column;
     height: auto;
     padding: 3% 0;
+
+    
+    --heightTop: 70px;
+    padding-top: calc(var(--heightTop) + 30px);
+    
     justify-content: center;
     align-items: center;
 

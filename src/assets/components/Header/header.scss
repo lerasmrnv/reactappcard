@@ -1,22 +1,60 @@
 @import '/src/assets/styles/variables.scss';
+@mixin center-vertical {
+    display: flex;
+    align-items: center;
+}
+
 
 .headerContainer {
-    display: flex;
+    @include center-vertical;
+    position: fixed;
     padding-left: 5%;
 
-    height: 70px;
+    height: $marginHeader;
+    width: 100vw;
 
     background-color: $colorEmphasis1;
 }
 
 .headerTitle {
-    display: flex;
-    align-items: center;
-
     margin-block-start: 0;
     margin-block-end: 0;
 
+    word-wrap: normal;
     font-family: $font;
     font-size: $fontSizeTitle;
     color: $colorTextLight;
+    
+}
+.titleApp{
+    @include center-vertical;
+
+    height: 100%;
+    width: 40%;
+
+    text-decoration: none;
+}
+
+.logoApp {
+    height: 60%;
+    margin-right: 5%;
+
+}
+
+.nav {
+    margin-left: 30%;
+}
+
+.nav-game {
+    list-style-type: none;
+
+    text-align: center;
+}
+
+.nav-game__link{
+    text-decoration: none;
+
+    font-family: $font;
+    color: $colorTextLight;
+    
 }

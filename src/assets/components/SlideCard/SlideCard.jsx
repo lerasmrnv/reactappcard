@@ -27,7 +27,7 @@ export default function SlideCard({ words }) {
     }
 
     return (
-        <div className='slider'>
+        <div className='slider' >
             <button className='prev__button' onClick={handlePrevSlide}>❮</button>
             <div className='slides'>
                 <ItemCard english={words[sliderPosition].english} russian={words[sliderPosition].russian} transcription={words[sliderPosition].transcription} />

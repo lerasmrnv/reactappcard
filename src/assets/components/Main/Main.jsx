@@ -1,21 +1,16 @@
 import React from "react";
+import { Routes, Route } from 'react-router-dom';
 
 import TableWords from "../TableWords/TableWords";
-import SlideCard from "../SlideCard/SlideCard";
 import SimpleSlider from "../SimpleSlider/SimpleSlider";
-import words from "../words";
-
-
 
 export default function Main() {
     return (
         <div className="mainContainer">
-            <TableWords />
-
-            <SlideCard words={words} />
-
-            <SimpleSlider />
-
+            <Routes>
+                <Route path="/" element={<TableWords />} />
+                <Route path="/game" element={<SimpleSlider />} />
+            </Routes>
         </div>
     )
 }
