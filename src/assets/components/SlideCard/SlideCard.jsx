@@ -7,20 +7,21 @@ import "./SlideCard.scss";
 export default function SlideCard({ words }) {
     const [sliderPosition, setSliderPosition] = useState(1);
 
+
     const handlePrevSlide = () => {
-        if (sliderPosition > 1) {
+        if (sliderPosition > 0) {
             setSliderPosition(prev => prev - 1);
-        } else if (sliderPosition === 1) {
-            setSliderPosition(words.length);
+        } else if (sliderPosition === 0) {
+            setSliderPosition(words.length - 1);
         }
 
     }
     const handleNextSlide = () => {
-        if (sliderPosition < words.length) {
+        if (sliderPosition < words.length - 1) {
             setSliderPosition(prev => prev + 1);
         }
-        else if (sliderPosition === words.length) {
-            setSliderPosition(1);
+        else if (sliderPosition === words.length - 1) {
+            setSliderPosition(0);
         }
 
     }

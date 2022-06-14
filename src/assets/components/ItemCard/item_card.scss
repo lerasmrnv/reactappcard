@@ -1,4 +1,8 @@
 @import '/src/assets/styles/variables.scss';
+@mixin margin-blok {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 
 .item_card {
     display: flex;
@@ -14,8 +18,7 @@
 
 
 .transcription_item_card, .english-word_item_card {
-    margin-block-start: 0;
-    margin-block-end: 0;
+    @include margin-blok;
     font-family: $font;
     margin-bottom: 3%;
 }
@@ -46,8 +49,7 @@
     }
 
 .russian-word_item_card {
-    margin-block-start: 0;
-    margin-block-end: 0;
+    @include margin-blok;
     
     padding: 10px 10px;
 
