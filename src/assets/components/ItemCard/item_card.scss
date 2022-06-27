@@ -1,4 +1,5 @@
 @import '/src/assets/styles/variables.scss';
+
 @mixin margin-blok {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -15,7 +16,6 @@
     
     background-color: $colorEmphasis4;
 }
-
 
 .transcription_item_card, .english-word_item_card {
     @include margin-blok;
@@ -45,7 +45,7 @@
 }
 
 .onCheck_translation:hover {
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(8, 23, 34, 0.2);
     }
 
 .russian-word_item_card {
