@@ -24,4 +24,4 @@ function ItemCard(props, ref) {
 
 export default forwardRef(ItemCard);
 
-
+// Не передает родительскому компоненту
