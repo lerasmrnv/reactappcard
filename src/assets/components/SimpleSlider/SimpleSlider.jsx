@@ -27,7 +27,7 @@ export default function SimpleSlider() {
         <div className="containerSlider">
             <Slider {...settings} >
                 {words.map((word) =>
-                    <ItemCard key={word.id.toString()} english={word.english} russian={word.russian} transcription={word.transcription} addToStudiedCard={addToStudiedCard} />
+                    <ItemCard key={word.id.toString()} english={word.english} russian={word.russian} transcription={word.transcription} addToStudiedCard={addToStudiedCard} ref={ref} />
                 )
                 }
             </Slider>
